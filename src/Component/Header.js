@@ -55,7 +55,7 @@ export default function Navbar({ theme }) {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-defaultTheme-mainText hover:opacity-75"
                   to="/hire"
                 >
-                  <span className="ml-2">Hire</span>
+                  <span className="ml-2">Hire me</span>
                 </Link>
               </li>
               <li className="nav-item">

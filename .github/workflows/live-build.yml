@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run-script build
+        run: CI=false npm run-script build
 
       # - name: Create CNAME
         # run: echo "iamdavidabayomi.me" >> ./public/CNAME
